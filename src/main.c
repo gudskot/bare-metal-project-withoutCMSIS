@@ -4,7 +4,7 @@ int main(void) {
     // Open tackting
     RCC_IOPENR |= (1 << 0);
 
-    // PA0 output
+    // PA5 output
     GPIOA_MODER &= ~(3 << (2 * 5));
     GPIOA_MODER |= (1 << (2 * 5));
 
