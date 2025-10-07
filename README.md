@@ -1,12 +1,16 @@
 # Bare-metal LED Blinker for STM32L053R8
 
 This project makes the MCU blink its onboard LED. The key difference is that I didn’t use CMSIS; instead, I created my own header file based on the MCU’s datasheet.
+Also, I'm working on adding USART to this project.
 
 ## Features
 - Works without HAL, direct register access
 - Configures GPIOA (pin PA5) as output
 - Infinite loop with delay
 - Build system: `makefile`
+
+## Future improvements
+- Adding USART
 
 ## Requirements
 - Microcontroller: STM32L053xx
