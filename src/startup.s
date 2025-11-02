@@ -28,7 +28,6 @@
 Reset_Handler:
     ldr   r0, =_estack
     mov   sp, r0 
-    cpsid i 
 
 /* =Copy the data segment initializers from flash to SRAM */
     ldr r0, =_sdata
